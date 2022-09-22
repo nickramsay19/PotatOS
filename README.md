@@ -12,3 +12,13 @@ qemu-system-i386 bin/potatos.bin
 ```
 make iso
 ```
+
+### Running in QEMU Emulator
+#### From binary
+```
+qemu-system-i386 bin/potatos.bin
+```
+#### From ISO
+```
+qemu-system-i386 -cdrom dist/potatos.iso
+```

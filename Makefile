@@ -8,7 +8,7 @@ iso: bin dist bin/potatos.bin
 	rm floppy.img
 
 bin/potatos.bin: bin src/potatos.asm
-	nasm -f bin src/potatos.asm -o bin/potatos.bin
+	nasm -f bin -o bin/potatos.bin src/potatos.asm
 
 bin:
 	mkdir bin
